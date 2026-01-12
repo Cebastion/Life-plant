@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "210742910586",
+    "firebase_url": "https://plant-dfbc1-default-rtdb.firebaseio.com",
+    "project_id": "plant-dfbc1",
+    "storage_bucket": "plant-dfbc1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210742910586:android:6331d1d1810e5e5ac8a5c3",
+        "android_client_info": {
+          "package_name": "com.cebastion.life_plant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOKG-YuC50qsBvabaVyxT-k402NtIaTLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

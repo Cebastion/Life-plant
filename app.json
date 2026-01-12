@@ -1,0 +1,125 @@
+{
+  "expo": {
+    "name": "Life Plant",
+    "slug": "life_plant",
+    "scheme": "lifeplant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_app.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon_app.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cebastion.life-plant"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_app.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.cebastion.life_plant",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {},
+    "plugins": [
+      "expo-router",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Life Plant to access your microphone."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Life Plant to access your camera",
+          "microphonePermission": "Allow Life Plant to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-dev-client",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "",
+          "color": "#ffffff",
+          "defaultChannel": "default",
+          "sounds": [
+            "",
+            ""
+          ],
+          "enableBackgroundRemoteNotifications": false
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/font/static/Nunito-Regular.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Nunito",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/font/static/Nunito-Bold.ttf",
+                    "weight": 700
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-Regular.ttf",
+                    "weight": 400
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-SemiBold.ttf",
+                    "weight": 600
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-Light.ttf",
+                    "weight": 300
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-ExtraBold.ttf",
+                    "weight": 800
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-ExtraLight.ttf",
+                    "weight": 200
+                  },
+                  {
+                    "path": "./assets/font/static/Nunito-Black.ttf",
+                    "weight": 900
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "expo-audio",
+      "expo-asset"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4c4f460f-0bd3-4efe-9808-61d50de304d8"
+      }
+    },
+    "owner": "cebastion"
+  }
+}
