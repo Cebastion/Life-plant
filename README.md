@@ -12,4 +12,4 @@ This pet project, which made via React Native, for planting and monitoring plant
 
 
 ## Source code Arduino
-You can download the source code for Arduino which write on C++ [here](https://github.com/cebastion/life_plant)
+You can download the source code for Arduino which write on C++ [here](https://github.com/Cebastion/Arduino-plant)
