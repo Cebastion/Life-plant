@@ -5,7 +5,7 @@ export const ListWiFiSlice = createApi({
   reducerPath: "list_wifi",
   tagTypes: ['ListWiFi'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://plant-pied-nine.vercel.app'
+    baseUrl: '<URL>'
   }),
   endpoints: (build) => ({
     getListWiFi: build.query<Pick<IListWiFiGet, "WiFis">, void>({

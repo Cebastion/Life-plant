@@ -3,7 +3,7 @@ import { IPlant } from "../interface/plant.interface";
 
 export class PlantService {
   static async GetPlantData() {
-    const { data } = await axios.get<IPlant>("https://plant-pied-nine.vercel.app/plant")
+    const { data } = await axios.get<IPlant>("<URL>")
     return data
   }
 }

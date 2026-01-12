@@ -116,13 +116,13 @@ const Setting = () => {
         }
 
         await axios.post(
-          'https://plant-pied-nine.vercel.app/notification/saveTokenDevice',
+          '<URL>',
           { token }
         );
       }
 
       await axios.post(
-        'https://plant-pied-nine.vercel.app/notification/saveAccessNotificationToken',
+        '<URL>',
         { value }
       );
 
@@ -213,22 +213,6 @@ const Setting = () => {
           </TouchableHighlight>
         </Link>
 
-
-        <Link href="/letter" asChild>
-          <TouchableHighlight
-            underlayColor={colors.card}
-            style={styles.linkRow}
-          >
-            <View style={{ flexDirection: "row", alignItems: "center" }}>
-              <Image style={{ width: 24, height: 24, marginRight: 8 }}
-                source={theme === "dark"
-                  ? require("../../assets/history-white.png")
-                  : require("../../assets/history-black.png")}
-              />
-              <Text style={[styles.linkText, { color: colors.text }]}>Letter</Text>
-            </View>
-          </TouchableHighlight>
-        </Link>
       </View>
 
       <View style={{ alignItems: 'center', marginBottom: 8 }}>

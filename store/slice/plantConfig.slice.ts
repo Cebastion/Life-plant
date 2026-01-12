@@ -5,7 +5,7 @@ export const plantConfigSlice = createApi({
   reducerPath: "plant_config",
   tagTypes: ['ConfigPlant'],
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://plant-pied-nine.vercel.app'
+    baseUrl: '<URL>'
   }),
   endpoints: (build) => ({
     getConfig: build.query<PlantConfigDTO, void>({

@@ -7,7 +7,7 @@ import FormData from "form-data";
 export class PlantNetService {
 
   private static async GetToken() {
-    const { data } = await axios.get("https://plant-pied-nine.vercel.app/plant/key")
+    const { data } = await axios.get("<URL>")
     return data
   }
 
